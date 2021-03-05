@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/fa8515a440.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Webapp</title>
+</head>
+
+<body>
+    <header>
+        <main>
+            <nav>
+                
+                <div>
+                    <a href="#"><img class="img-logo" src="./stunning-logo.png" alt="logo"></i></a>
+                </div>
+                <span class="bar-icon" onclick="myFunction()">&#9776</span>
+                <div id="mylinks">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Jobs</a>
+                </div>
+                <button id="botton-links">Your Account</button>
+            </nav>
+        </main>
+        <section>
+            <div>
+                <h1>
+                    Stunning <br>
+                    Workplace.
+                </h1>
+                <p>With Stunning, remote teams can organize projects, <br> manage shifting priorities, and get work done
+                </p>
+                <div>
+                    <button class="btn-new">New Account</button>
+                    <i class="fas fa-arrow-down  arrow_up_down"></i>
+                    <i class="fas fa-arrow-up arrow_up_down"></i>
+                </div>
+                <div id="img-tick">
+                    <div class="focus"><img src="./tick-gray.png" alt=""><span>Dmm design</span><img
+                            src="./user-pink.png" alt=""><span>20 Dec</span>
+                    </div>
+                    <div id="focus"><img src="./tick-blue.png" alt=""><span>Blurr animation</span><img
+                            src="./user-orange.png" alt=""><span>22 Dec</span></div>
+                    <div class="focus"><img src="./tick-gray.png" alt=""><span>Illustration</span><img
+                            src="./user-blue.png" alt=""><span>26 Dec</span>
+                    </div>
+                    <div class="focus"><img src="./tick-gray.png" alt=""><span>Refunds</span><img src="./user-red.png"
+                            alt=""><span>26 Dec</span></div>
+                </div>
+            </div>
+            <div>
+                <img class="landing-img" src="./landing_img.png" alt="landing-img">
+            </div>
+        </section>
+        <script>
+            function myFunction(){
+                var x = document.getElementById("mylinks");
+                if(x.style.display == "block")
+                {
+                    x.style.display = "none"
+                }
+                else{
+                    x.style.display = "block"
+                    
+                }
+            }
+        </script>
+    </header>
+</body>
+
+</html>
